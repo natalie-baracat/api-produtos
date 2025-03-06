@@ -1,0 +1,1 @@
+DATABASE_URL="postgres://postgres.cxtkkyqppdbygezfsffn:YEOurkKTFZdIYV62@aws-0-us-east-1.pooler.supabase.com:5432/postgres"
