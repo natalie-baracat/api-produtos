@@ -10,3 +10,5 @@ class Usuario {
         return resultado.rows[0]
     }
 }
+
+export default Usuario
