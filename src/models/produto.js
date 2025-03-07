@@ -10,4 +10,4 @@ class Produto {
     }
 }
 
-export default Usuario
+export default Produto
