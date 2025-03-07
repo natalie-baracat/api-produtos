@@ -14,6 +14,7 @@ const BD = new Pool ({
     user: "postgres",
     host: "localhost",
     password: "admin",
+    database: "bd_financeiro",
     port: 5432
 
 })
