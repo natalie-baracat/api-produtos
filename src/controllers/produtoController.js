@@ -5,7 +5,7 @@ class produtoController {
         const { nome, preco, imagem, linkproduto, categoria, fretegratis } = req.body
 
         //validando dados
-        if (!nome || !preco || !linkproduto || !categoria || !fretegratis) {
+        if (!nome || !preco || !categoria || !fretegratis) {
             return res.send(400).json({message: "Faltam campos obrigatórios a serem preenchidos."})
         } 
         try {
