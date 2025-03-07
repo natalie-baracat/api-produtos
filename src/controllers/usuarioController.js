@@ -14,7 +14,7 @@ class usuarioController {
             res.status(201).json(usuario) // retorna o usuario criado juntamente a mensagem de sucesso
         } catch (error) {
             console.error("Erro ao criar o usuário — ", error)
-        res.status(500).json({message: "Erro ao criar o usuário", error: error.message})
+            res.status(500).json({message: "Erro ao criar o usuário", error: error.message})
         }
     }
 }

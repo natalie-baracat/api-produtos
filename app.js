@@ -1,6 +1,6 @@
 import express from "express"
 import { testarConexao } from "./db.js"
-import bodyParser from "body-parse"
+import bodyParser from "body-parser"
 import cors from "cors"
 import usuarioRoutes from "./src/routes/usuarioRoutes.js"
 
